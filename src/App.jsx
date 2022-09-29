@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import TimeOutComponent from './components/TimeOutComponent'
+import ToggleComponent from './components/ToggleComponent'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      <h1>Hello</h1>
+      {/* <ToggleComponent /> */}
+      <TimeOutComponent />
     </div>
   )
 }
