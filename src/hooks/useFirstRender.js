@@ -5,7 +5,6 @@ function useIsFirstRender() {
 
   if (isFirst.current) {
     isFirst.current = false;
-    console.log(isFirst)
     return true;
   }
 
