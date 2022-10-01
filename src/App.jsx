@@ -3,6 +3,7 @@ import TimeOutComponent from './components/TimeOutComponent'
 import ToggleComponent from './components/ToggleComponent'
 import UpdateComponent from './components/UpdateComponent'
 import UseArray from './components/UseArray'
+import UseLocalStorage from './components/UseLocalStorageComponent'
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <TimeOutComponent /> */}
       {/* <DebounceComponent /> */}
       {/* <UpdateComponent /> */}
-      <UseArray />
+      {/* <UseArray /> */}
+      <UseLocalStorage />
     </div>
   )
 }
