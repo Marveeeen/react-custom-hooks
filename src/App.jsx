@@ -1,5 +1,6 @@
 import DebounceComponent from './components/DebounceComponent'
 import PreviousComponent from './components/PreviousComponent'
+import StateWithHistoryComponent from './components/StateWithHistoryComponent'
 import TimeOutComponent from './components/TimeOutComponent'
 import ToggleComponent from './components/ToggleComponent'
 import UpdateComponent from './components/UpdateComponent'
@@ -15,7 +16,8 @@ function App() {
       {/* <UpdateComponent /> */}
       {/* <UseArray /> */}
       {/* <UseLocalStorage /> */}
-      <PreviousComponent />
+      {/* <PreviousComponent /> */}
+      <StateWithHistoryComponent />
     </div>
   )
 }
